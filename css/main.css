@@ -5,21 +5,20 @@
 }
 
 body{
-  width: 80;
   margin: 0 auto;
 }
 
 /* REGOLE HEADER */
 header .container {
   background-color: lightblue;
-  height: 54px;
   border: 1px solid black;
 }
 
-header .container [class*="col-"] {
+header .container .row [class*="col-"] {
   background-color: lightgray;
   height: 40px;
   margin-top: 5px;
+  margin-bottom: 5px;
   border: 1px solid black;
 }
 
@@ -29,14 +28,63 @@ header .container [class*="col-"] {
 
 section:first-child .container{
   background-color: lightgray;
-  height: 500px;
   margin-top: 54px;
   border: 1px solid black;
 }
 
-section:first-child .container [class*="col-"]{
+section:first-child .container .row [class*="col-"]{
   background-color: lightblue;
-  height: 400px;
+  height: 300px;
   margin-top: 50px;
+  margin-bottom: 50px;
   border: 1px solid black;
+}
+
+/* regole PORTFOLIO  */
+
+section:nth-child(2) .container {
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+section:nth-child(2) .container .row:first-child [class*="col-"]{
+  height: 80px;
+  margin-top: 20px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+section:nth-child(2) .container .row:last-child [class*="col-"]{
+  height: 130px;
+  margin-bottom: 20px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+/* regole ABOUT */
+section:nth-child(3) .container {
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+section:nth-child(3) .container .row [class*="col-"]{
+  background-color: lightgreen;
+  border: 1px solid black;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* regole CONTACT ME */
+section:nth-child(4) .container {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+section:nth-child(4) .container .row [class*="col-"]{
+  background-color: blue;
+  border: 1px solid black;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
