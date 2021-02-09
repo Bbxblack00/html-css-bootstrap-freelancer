@@ -12,4 +12,31 @@ body{
 /* REGOLE HEADER */
 header .container {
   background-color: lightblue;
+  height: 54px;
+  border: 1px solid black;
+}
+
+header .container [class*="col-"] {
+  background-color: lightgray;
+  height: 40px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+
+/* REGOLE MAIN */
+/* regole JT */
+
+section:first-child .container{
+  background-color: lightgray;
+  height: 500px;
+  margin-top: 54px;
+  border: 1px solid black;
+}
+
+section:first-child .container [class*="col-"]{
+  background-color: lightblue;
+  height: 400px;
+  margin-top: 50px;
+  border: 1px solid black;
 }
