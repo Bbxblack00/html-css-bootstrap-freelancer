@@ -4,34 +4,98 @@
   border: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
 body{
-  margin: 0 auto;
+  margin: : 0 25%;
+  font-family: 'Rubik', sans-serif;
 }
+
+.container{
+  width: 100%;
+}
+
 
 /* REGOLE HEADER */
 header .container {
-  background-color: lightblue;
-  border: 1px solid black;
+  padding: 0;
 }
 
-/* REGOLE MAIN */
-/* regole JT */
+.navbar{
+  background-color: #2C3E50;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 23px;
+  font-style: bold;
+}
+
+.navbar .navbar-toggle{
+  background-color: #148F77;
+}
+
+.navbar-default .navbar-toggle {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*             REGOLE MAIN          */
+
+
+/*              regole JT           */
+
+#jt{
+  color: white;
+}
 
 #jt .container{
-  background-color: lightgray;
-  margin-top: 54px;
-  border: 1px solid black;
+  background-color: #1ABC9C;
 }
 
 #jt .container .row [class*="col-"]{
-  background-color: lightblue;
-  height: 300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: 1px solid black;
+  text-align: center;
 }
 
-/* regole PORTFOLIO  */
+#jt img{
+  width: 27%;
+}
+
+#jt h1{
+  font-size: 55px;
+}
+
+#jt h1{
+  font-size: 55px;
+}
+
+#jt i{
+  margin-bottom: 30px;
+}
+
+.riga{
+  border-radius: 2px;
+  border: 2px solid white;
+  margin-top: 15px;
+}
+
+/*         regole PORTFOLIO        */
 
 #portfolio .container {
   background-color: lightblue;
