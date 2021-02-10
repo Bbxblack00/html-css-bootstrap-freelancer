@@ -9,19 +9,10 @@ body{
 }
 
 /* REGOLE HEADER */
-/* header .container {
+header .container {
   background-color: lightblue;
   border: 1px solid black;
 }
-
-header .container .row [class*="col-"] {
-  background-color: lightgray;
-  height: 40px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: 1px solid black;
-} */
-
 
 /* REGOLE MAIN */
 /* regole JT */
