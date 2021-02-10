@@ -26,13 +26,13 @@ header .container .row [class*="col-"] {
 /* REGOLE MAIN */
 /* regole JT */
 
-section:first-child .container{
+#jt .container{
   background-color: lightgray;
   margin-top: 54px;
   border: 1px solid black;
 }
 
-section:first-child .container .row [class*="col-"]{
+#jt .container .row [class*="col-"]{
   background-color: lightblue;
   height: 300px;
   margin-top: 50px;
@@ -42,19 +42,19 @@ section:first-child .container .row [class*="col-"]{
 
 /* regole PORTFOLIO  */
 
-section:nth-child(2) .container {
+#portfolio .container {
   background-color: lightblue;
   border: 1px solid black;
 }
 
-section:nth-child(2) .container .row:first-child [class*="col-"]{
+#portfolio .container .row:first-child [class*="col-"]{
   height: 80px;
   margin-top: 20px;
   background-color: gray;
   border: 1px solid black;
 }
 
-section:nth-child(2) .container .row:last-child [class*="col-"]{
+#portfolio .container .row:last-child [class*="col-"]{
   height: 130px;
   margin-bottom: 20px;
   background-color: gray;
@@ -62,12 +62,12 @@ section:nth-child(2) .container .row:last-child [class*="col-"]{
 }
 
 /* regole ABOUT */
-section:nth-child(3) .container {
+#about .container {
   background-color: lightgray;
   border: 1px solid black;
 }
 
-section:nth-child(3) .container .row [class*="col-"]{
+#about .container .row [class*="col-"]{
   background-color: lightgreen;
   border: 1px solid black;
   height: 80px;
@@ -76,15 +76,37 @@ section:nth-child(3) .container .row [class*="col-"]{
 }
 
 /* regole CONTACT ME */
-section:nth-child(4) .container {
+#contact .container {
   background-color: orange;
   border: 1px solid black;
 }
 
-section:nth-child(4) .container .row [class*="col-"]{
+#contact .container .row [class*="col-"]{
   background-color: blue;
   border: 1px solid black;
   height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* REGOLE FOOTER */
+footer .container .row:first-child{
+  background-color: darkgreen;
+  border: 1px solid black;
+}
+
+footer .container .row:last-child{
+  background-color: lightgreen;
+  border: 1px solid black;
+  height: 60px;
+}
+
+footer .container .row:first-child [class*="col-"]{
+  background-color: yellow;
+  border: 1px solid black;
+  height: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
